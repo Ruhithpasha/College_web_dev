@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="para">Hello Javascript</p>
+    <button id="btn" type="button" onclick="changetext()">click me</button>
+
+    <p id="para2"> hello java</p>
+    <button id="btn2" type="button">click me</button>
+    
+    <!-- Javascript -->
+    
+    
+    <script>
+        const para = document.getElementById("para")
+
+        function changetext() {
+            para.innerHTML = "hello"
+            console.log("it runs")
+
+        }
+
+        
+        
+        
+        
+        
+        const para2 = document.getElementById("para2")
+
+        const btn2 = document.getElementById("btn2")
+        btn2.addEventListener("click", function change() {
+            para2.innerHTML = "Hello python"
+            console.log("runs")
+        })
+
+    </script>
+</body>
+
+</html>

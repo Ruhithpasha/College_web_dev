@@ -1,38 +1,44 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    
+
 </head>
+
 <body>
     <center>
 
         <div class="table_b">
             <h2><u>Border around the table</u></h2>
-            
-            
+
+
             <table>
                 <tr>
                     <th>First name</th>
                     <th>lastname</th>
                 </tr>
 
-        <tr>
-            <td>Ruhith</td>
-            <td>pasha</td>
-        </tr>
-    </table>
-</div>
+                <tr>
+                    <td>Ruhith</td>
+                    <td>pasha</td>
+                </tr>
+            </table>
+        </div>
 
 
-<div class="table_2">
-    <table>
+<p id="demo">Javascript can change HTML</p>
+<button type="button" onclick='document.getElementById("demo").innerHTML="Hello Javascript"'>Click me</button>
+
+    </center>
+
+    <!-- <script>
+        const text=document.getElementById("demo")
         
-    </table>
-</div>
-</center>
+    </script> -->
 </body>
+
 </html>
