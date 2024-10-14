@@ -1,10 +1,38 @@
 *{
    
-    background-color: violet;
+    background-color: bisque        ;
    
 }
 
-.para{
-    color: yellow;
-    font-size: 30px;
-}
+
+
+
+
+.table_b{
+    background-color: beige;
+    height: 200px;
+    width: 300px;
+    border: 2px solid black;
+  }
+  
+    table{
+        border-collapse: collapse;
+        border: 2px solid black;
+        height: 100px;
+        width: 200px;
+    }
+
+    td{
+        border: 2px solid black;
+        padding: 10px;
+        background-color: bisque;
+    }
+    th{
+        border: 2px solid black;
+        padding: 10px;
+        background-color: aqua;
+    }
+
+    h2,u{
+        background-color: #f5f5dc;
+    }
