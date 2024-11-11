@@ -19,7 +19,7 @@
         let password = document.getElementById("password");
         let btn =document.querySelector("#button");
         btn.addEventListener("click",function(e){
-            // e.preventDefault();
+            e.preventDefault();
             if(userName.value.trim() === "" || password.value.trim() === ""){
                 alert("Please fill the form");
             }else{
