@@ -7,17 +7,30 @@
 </head>
 <body>
     <form action="post">
-Description: <br>
+<b>
+
+    Description: 
+</b><br>
 <textarea name="Description" rows="10" cols="60" id="Description">Enter the description here    </textarea>
 <div>
-    <h1>Checkbox</h1>
+    <h3>Checkbox</h3>
 
     <input type="checkbox" name="Physics" id="Physics">Physics
     <input type="checkbox" name="Computer Science" id="Computer Science">Computer Science
 </div>
 <div>
-    <input type="radio" name="gender" id="male" value="Male">Male
+    <h3>Demonstrating Radio buttons</h3>
+    <input type="radio" name="gender" id="male" value="Male">Male <br>
     <input type="radio" name="gender" id="female" value="Female">Female
+</div>
+<div>
+    <h3>Demonstrating Dropdown menu</h3>
+    <select name="Dropdown" id="cities">
+        <option value="blr">Bangalore</option>
+        <option value="mumbai">Mumbai</option>
+        <option value="hyd">Hyderabad</option>
+        <option value="klr">Kolar</option>
+    </select>
 </div>
 
     </form>
