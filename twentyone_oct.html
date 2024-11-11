@@ -9,18 +9,58 @@
 </head>
 <body>
 
-    <div id="write">
+    <div class="write">
 
         <h1>My First Web page</h1>
         <p>hello js</p>
         <button type="button" onclick="documentwrite()"> click me</button>
     </div>
 
+    <div class="write">
+        <p>in this x , and z are undeclared</p>
+        <p>they are automatically declared when first used</p>
+
+        <p id="demo"></p>
+
+        <button id="btn">click me</button>
+    </div>
 
     <script>
         function documentwrite(){
             document.write(10+10)
         }
+
+
+
+        // x=5
+        // y=7
+        // z=x+y
+
+        // document.getElementById("demo").innerHTML=" the value of z is "+z
+
+      
+        let demo =document.getElementById("demo")
+
+        let add=document.getElementById("btn")
+       add.addEventListener("click",function (params) {
+
+        let name1=prompt("Enter your name")
+        let name2=prompt("Enter sub name")
+        // let n1="sun"
+        // let n2="Hunter"
+
+        // if (name1=="x") {
+        //     demo.innerHTML=document.write("sun")
+            
+        // }else if(name1=="y"){
+        //     demo.innerHTML=document.write("Hunter")
+        // }else if (name1=="add") {
+        //     demo.innerHTML=document.write(n1+" "+n2)
+        // }
+        demo.innerHTML= document.write(name1+" "+name2)
+        console.log(name1+" "+name2)
+       })
+
     </script>
 </body>
 </html>

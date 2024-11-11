@@ -33,11 +33,12 @@
 
 
 
-    #write{
+    .write{
         border: 2px solid black;
         margin: 0px auto;
         width: fit-content;
         height: fit-content;
         padding: 5px;
         background-color: greenyellow;
+        margin-bottom: 10px;
     }
