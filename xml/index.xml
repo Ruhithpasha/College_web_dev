@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Student [
+  <!ELEMENT Student (name, rollno, subject, Description)>
+  <!ELEMENT name (#PCDATA)>
+  <!ELEMENT rollno (#PCDATA)>
+  <!ELEMENT subject (#PCDATA)>
+  <!ELEMENT Description (#PCDATA)>
+]>
+
+<Student>
+  <name>Ruhith</name>
+  <rollno>24MSIC123</rollno>
+  <subject>Web-desining</subject>
+  <Description>web development is a great field to work on</Description>
+</Student>
