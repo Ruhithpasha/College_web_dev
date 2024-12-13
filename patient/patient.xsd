@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="patient">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="name" type="xs:string" />
+                <xs:element name="patientInfo"  maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="patientName" type="xs:string" />
+                            <xs:element name="patientAge" type="xs:integer" />
+                            <xs:element name="patientGender" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="patientHistory" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="disease" type="xs:string" />
+                            <xs:element name="doctor" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="Medicine" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="medicineType" type="xs:string" />
+                            <xs:element name="medicineQuantity" type="xs:integer" />
+                            <xs:element name="medicinePrice" type="xs:decimal" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="patientid" type="xs:string" use="required" />
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

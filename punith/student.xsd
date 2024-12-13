@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+    <xs:element name="student">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="name" type="xs:string" />
+                <xs:element name="studentInfo"  maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="studentName" type="xs:string" />
+                            <xs:element name="studentId" type="xs:string" />
+                            <xs:element name="studentAge" type="xs:integer" />
+                            <xs:element name="studentGender" type="xs:string" />
+                            <xs:element name="course" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+
+                <xs:element name="studentsubjects">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="firstsubject" type="xs:string" />
+                            <xs:element name="secondsubject" type="xs:string" />
+                            <xs:element name="thirdsubject" type="xs:string" />
+                            <xs:element name="fourthsubject" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+                <xs:element name="activities">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="curicularactivities" type="xs:string" />
+                            <xs:element name="sportsactivities" type="xs:string" />
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+            <xs:attribute name="studentid" type="xs:string" use="required" />
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

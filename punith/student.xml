@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<student xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="student.xsd" studentid="S12345">
+  <name>gcu</name>
+  <studentInfo>
+    <studentName>punith</studentName>
+    <studentId>S12345</studentId>
+    <studentAge>20</studentAge>
+    <studentGender>Male</studentGender>
+    <course>Computer Science</course>
+  </studentInfo>
+  <studentInfo>
+    <studentName>ruhith</studentName>
+    <studentId>S12346</studentId>
+    <studentAge>22</studentAge>
+    <studentGender>male</studentGender>
+    <course>Mathematics</course>
+  </studentInfo>
+  <studentsubjects>
+    <firstsubject>Mathematics</firstsubject>
+    <secondsubject>Physics</secondsubject>
+    <thirdsubject>Chemistry</thirdsubject>
+    <fourthsubject>Biology</fourthsubject>
+  </studentsubjects>
+  <activities>
+    <curicularactivities>badminton</curicularactivities>
+    <sportsactivities>cricket</sportsactivities>
+  </activities>
+</student>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shiporder xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="shiporder.xsd" orderid="12345">
+  <orderperson>John Doe</orderperson>
+  <shipto>
+    <name>Jane Doe</name>
+    <address>123 Main Street</address>
+    <city>Anytown</city>
+    <country>USA</country>
+  </shipto>
+  <item>
+    <title>Book</title>
+    <note>First edition</note>
+    <quantity>1</quantity>
+    <price>29.99</price>
+  </item>
+  <item>
+    <title>Pen</title>
+    <quantity>3</quantity>
+    <price>1.99</price>
+  </item>
+</shiporder>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<patient xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="patient.xsd" patientid="12345">
+
+    <name>BGS Global Hospitol</name>
+    <patientInfo>
+        <patientName>Ruhith</patientName>
+        <patientAge>25</patientAge>
+        <patientGender>Male</patientGender>
+    </patientInfo>
+    <patientInfo>
+        <patientName>Deepak</patientName>
+        <patientAge>25</patientAge>
+        <patientGender>Male</patientGender>
+    </patientInfo>
+
+    <patientHistory>
+        <disease>Malaria</disease>
+        <doctor>Khurana</doctor>
+    </patientHistory>
+    <patientHistory>
+        <disease>dengue</disease>
+        <doctor>Khurana</doctor>
+    </patientHistory>
+    <Medicine>
+        <medicineType>Tablet</medicineType>
+        <medicineQuantity>10</medicineQuantity>
+        <medicinePrice>10.00</medicinePrice>
+    </Medicine>
+    <Medicine>
+        <medicineType>Tablet</medicineType>
+        <medicineQuantity>10</medicineQuantity>
+        <medicinePrice>10.00</medicinePrice>
+    </Medicine>
+</patient>
